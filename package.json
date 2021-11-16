@@ -1,0 +1,38 @@
+{
+  "name": "yonn-utils",
+  "version": "1.0.0",
+  "description": "just utils",
+  "repository": "deerpark/yonn-utils",
+  "module": "dist/yonn-utils.m.js",
+  "unpkg": "dist/yonn-utils.min.js",
+  "main": "dist/yonn-utils.js",
+  "types": "yonn-utils.d.ts",
+  "author": {
+    "name": "Yonn Kim",
+    "email": "ji9@me.com",
+    "url": "https://deerpark.github.io"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "build": "bundt",
+    "pretest": "npm run build",
+    "test": "tape -r esm test/*.js | tap-spec"
+  },
+  "license": "MIT",
+  "files": [
+    "*.d.ts",
+    "dist"
+  ],
+  "keywords": [
+    "yonn",
+    "utils"
+  ],
+  "devDependencies": {
+    "bundt": "^1.0.1",
+    "esm": "^3.2.25",
+    "tap-spec": "^2.2.2",
+    "tape": "^4.9.1"
+  }
+}
