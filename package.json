@@ -1,6 +1,6 @@
 {
   "name": "yonn-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "just utils",
   "repository": "deerpark/yonn-utils",
   "module": "dist/yonn-utils.m.js",
